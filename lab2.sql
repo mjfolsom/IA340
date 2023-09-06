@@ -55,5 +55,5 @@ ALTER TABLE enroll
     
 
 -- Create Indexes
-CREATE INDEX "Professor Table" ON professor ();
+
 
