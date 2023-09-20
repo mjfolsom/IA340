@@ -38,10 +38,7 @@ values ('c4', 'facebook', 'r1', 'p3@jmu.edu')
 -- you need to update the course first because p1 is actually teaching so you need to change that so that p3 can be switched
 update course 
 set p_email ='p3@jmu.edu'
-where p_email = 'p1@jmu.edu ; 
-
-delete from professor
-where p_email = 'p1@jmu.edu'
+where p_email = 'p1@jmu.edu;
 
 -- Q2.7 
 select * from enroll
@@ -60,7 +57,9 @@ from professor
 inner join course
 on professor.p_email = course.p_email
 
---Q2.10
+--Q2.10	
+
+	
 
 	
 
