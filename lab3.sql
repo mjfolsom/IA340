@@ -54,6 +54,14 @@ order by num_student desc
 limit 1
 
 -- Q2.9
+select professor.p_name,
+	course.c_name
+from professor
+inner join course
+on professor.p_email = course.p_email
+
+--Q2.10
+
 	
 
 
